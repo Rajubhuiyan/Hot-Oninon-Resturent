@@ -1,0 +1,18 @@
+.cart-input-control{
+    background-color: #F6F5FA;
+	border: none;
+    width: 65px !important;
+    border-radius: 10px!important;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: inherit;
+}
+.add-to-cart-btn{
+    border: none;
+    background: none !important;
+}
+.cart-input{
+    width: 70px !important;
+    display: inline !important;
+}

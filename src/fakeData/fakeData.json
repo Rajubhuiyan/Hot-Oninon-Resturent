@@ -1,0 +1,146 @@
+[
+    {
+      "id": "1",
+      "picture": "https://i.ibb.co/MkxkGP8/breakfast1.png",
+      "name": "Eggs Benedit",
+      "price": 23.99,
+      "category": "breakfast",
+      "description": "How we dream about out future"
+    },
+    {
+        "id": "2",
+        "picture": "https://i.postimg.cc/8zMj4VtL/breakfast2.png",
+        "name": "Breakfast Sandwitch",
+        "price": 9.99,
+        "category": "breakfast",
+        "description": "How we dream about out future"
+      },
+      {
+        "id": "3",
+        "picture": "https://i.postimg.cc/nhGQZJBp/breakfast3.png",
+        "name": "Teragon Rubbed Salmon",
+        "price": 6.99,
+        "category": "breakfast",
+        "description": "How we dream about out future"
+      },
+      {
+        "id": "4",
+        "picture": "https://i.postimg.cc/SxkJgv55/breakfast4.png",
+        "name": "India Lunch",
+        "price": 8.99,
+        "category": "breakfast",
+        "description": "How we dream about out future"
+      },
+      {
+        "id": "5",
+        "picture": "https://i.postimg.cc/MppzM2gW/breakfast5.png",
+        "name": "Beef Steak",
+        "price": 15.99,
+        "category": "breakfast",
+        "description": "How we dream about out future"
+      },
+      {
+        "id": "6",
+        "picture": "https://i.postimg.cc/MTxPHxr5/Breakfast6.png",
+        "name": "Honey soy glazed salmon with peppers",
+        "price": 7.99,
+        "category": "breakfast",
+        "description": "How we dream about out future"
+      },
+      {
+        "id": "7",
+        "picture": "https://i.postimg.cc/gkK7m61c/dinner1.png",
+        "name": "Salmon with grapefruit and sentil salad",
+        "price": 9.99,
+        "category": "dinner",
+        "description": "How we dream about out future"
+      },
+      {
+          "id": "8",
+          "picture": "https://i.postimg.cc/V6GNx61K/dinner2.png",
+          "name": "Lemoni Salmon Piccata",
+          "price": 10.99,
+          "category": "dinner",
+          "description": "How we dream about out future"
+        },
+        {
+          "id": "9",
+          "picture": "https://i.postimg.cc/Y2TF0nKb/dinner3.png",
+          "name": "Pork Tenderloin with quinoa pilaf",
+          "price": 12.99,
+          "category": "dinner",
+          "description": "How we dream about out future"
+        },
+        {
+          "id": "10",
+          "picture": "https://i.postimg.cc/bwh2HZvn/dinner4.png",
+          "name": "French fries with cheese",
+          "price": 8.99,
+          "category": "dinner",
+          "description": "How we dream about out future"
+        },
+        {
+          "id": "11",
+          "picture": "https://i.postimg.cc/1tcdXn4K/dinner5.png",
+          "name": "Garlic Butter Baked Salmon",
+          "price": 6.99,
+          "category": "dinner",
+          "description": "How we dream about out future"
+        },
+        {
+          "id": "12",
+          "picture": "https://i.postimg.cc/d35SRb2k/dinner6.png",
+          "name": "Baked Chiken",
+          "price": 9.99,
+          "category": "dinner",
+          "description": "How we dream about out future"
+        },
+        {
+          "id": "13",
+          "picture": "https://i.postimg.cc/GhJvfFVK/lunch1.png",
+          "name": "Healthy Meal Plan",
+          "price": 23.99,
+          "category": "lunch",
+          "description": "How we dream about out future"
+        },
+        {
+          "id": "14",
+          "picture": "https://i.postimg.cc/QCgKRD4C/lunch2.png",
+          "name": "Fried Chicken Bento",
+          "price": 9.99,
+          "category": "lunch",
+          "description": "How we dream about out future"
+        },
+        {
+          "id": "15",
+          "picture": "https://i.postimg.cc/9fS99Jwm/lunch3.png",
+          "name": "Tarragon-Rubbed-Salmon",
+          "price": 6.99,
+          "category": "lunch",
+          "description": "How we dream about out future"
+        },
+        {
+          "id": "16",
+          "picture": "https://i.postimg.cc/NFvrJFxZ/lunch4.png",
+          "name": "Bangladeshi Lunch",
+          "price": 8.99,
+          "category": "lunch",
+          "description": "How we dream about out future"
+        },
+        {
+          "id": "17",
+          "picture": "https://i.postimg.cc/bJtt9k1Q/lunch5.png",
+          "name": "Beef Steak",
+          "price": 15.99,
+          "category": "lunch",
+          "description": "How we dream about out future"
+        },
+        {
+          "id": "18",
+          "picture": "https://i.postimg.cc/J7jXy3r8/lunch6.png",
+          "name": "Honey soy glazed salmon with peppers",
+          "price": 7.99,
+          "category": "lunch",
+          "description": "How we dream about out future"
+        }
+  ]

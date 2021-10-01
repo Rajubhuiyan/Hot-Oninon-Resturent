@@ -1,0 +1,19 @@
+.error-style h1{
+    font-size: 400px;
+    text-align: center;
+}
+.error-style h2{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+}
+
+@media screen and (max-width: 500px){
+    .error-style h1{
+        font-size: 150px;
+    }
+    .error-style h2{
+        font-size: 30px;
+        text-align: center;
+    }
+}

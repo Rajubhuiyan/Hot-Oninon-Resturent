@@ -1,0 +1,25 @@
+.category-item img{
+    width: 150px;
+}
+.category-item{
+    width: 280px ;
+    height: 320px;
+    text-align: center;
+    padding-top: 30px;
+    margin: 50px;
+    
+}
+.category-item:hover{
+    box-shadow: 5px 5px 20px lightgray;
+    border-radius: 5px;
+}
+  @media screen and (max-width: 384px) {
+      .category-item{
+          margin: 10px;
+          width: 240px ;
+         height: 280px;
+      }
+      .category-item img{
+          width: 100px;
+      }
+  }

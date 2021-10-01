@@ -1,0 +1,86 @@
+.signup-btn{
+   background-color: red;
+   padding:6px 20px 8px 20px;
+   color: white;
+   text-decoration: none;
+   border-radius: 20px;
+   font-weight: 600;
+   margin-left: 20px;
+}
+.logo{
+    width: 150px;
+}
+.signup-btn:hover{
+    color: rgb(209, 209, 209);
+}
+.signin-btn{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: large;
+}
+
+
+.second-site{
+    background-image: url(../../images/header/bannerbackground.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: top;
+    height: 400px;
+}
+
+@media screen and (max-width: 320px) {
+    .second-site{
+        height: 300px;
+        background-size: 800px;
+    }
+    .signup-btn{
+        margin-left: 10px;
+        padding:2px 5px 2px 5px;
+    }
+    .signin-btn{
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .second-site{
+        height: 300px;
+        background-size: 800px;
+    }
+    .logo{
+        width: 120px;
+    }
+}
+
+
+.form-control{
+    border-radius: 50px!important;
+}
+
+.search-btn{
+    background-color: rgb(186, 71, 71);
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px 10px 20px;
+    border: none;
+}
+
+
+.btn-style{
+    font-weight: 600;
+    text-decoration: none;
+    font-size: larger;
+    background: none;
+    border: none;
+    background-image: none;
+}
+.btn-style:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.nav-style{
+    text-align: center;
+}

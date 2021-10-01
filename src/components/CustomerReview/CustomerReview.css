@@ -1,0 +1,10 @@
+.review-choose{
+    width: 45%;
+}
+.see-more-btn{
+    text-decoration: none;
+}
+.card-style{
+    border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+}

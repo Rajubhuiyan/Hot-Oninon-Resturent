@@ -1,0 +1,11 @@
+/* 1111111 */
+
+.delivery-details{
+    display: flex;
+    align-content: center;
+}
+form h4{
+   width: 400px;
+   text-align: center;
+   margin-left: 21px;
+}

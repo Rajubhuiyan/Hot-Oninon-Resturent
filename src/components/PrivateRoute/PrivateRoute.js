@@ -3,7 +3,7 @@ import { Redirect, Route } from 'react-router';
 import { cartContext } from '../../App';
 
 const PrivateRoute = ({children, ...rest}) => {
-    const [priceAndCart, setPriceAndCart] = useContext(cartContext);
+    const [priceAndCart] = useContext(cartContext);
     return (
         <Route
             {...rest}

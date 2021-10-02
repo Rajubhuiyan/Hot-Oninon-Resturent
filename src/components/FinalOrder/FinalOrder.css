@@ -1,0 +1,57 @@
+.deliveryStyle small{
+    color: red;
+}
+
+.deliveryStyle{
+    background-color: wheat;
+    padding: 50px;
+    width: 60%;
+    border-radius: 20px;
+}
+.locationStyle{
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.helmetStyle{
+    display: flex;
+}
+.helmetStyle img{
+    width: 70px;
+    margin-right: 10px;
+}
+.contactButton{
+    background-color: red;
+    color: white;
+    padding: 7px 60px 7px 60px !important;
+    border: none;
+    border-radius: 10px;
+}
+@media screen and (max-width: 1024px) {
+    .contactButton{
+        padding: 7px 30px 7px 30px !important;
+    }
+    .deliveryStyle{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 780px) {
+    .contactButton{
+        padding: 7px 30px 7px 30px !important;
+    }
+    .deliveryStyle{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 762px) {
+    .contactButton{
+        padding: 7px 30px 7px 30px !important;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .deliveryStyle{
+        width: 80%;
+    }
+}

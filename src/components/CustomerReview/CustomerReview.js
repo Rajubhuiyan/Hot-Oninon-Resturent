@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Card, } from 'react-bootstrap';
 import './CustomerReview.css';
 import firstImg from '../../images/Image/adult-blur-blurred-background-687824.png';
 import secondImg from '../../images/Image/chef-cook-food-33614.png';

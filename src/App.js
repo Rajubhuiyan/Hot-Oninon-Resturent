@@ -2,6 +2,7 @@ import React, { createContext, useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import CartSide from "./components/CartSide/CartSide";
 import ErrorCamp from "./components/ErrorComp/ErrorCamp";
+import FinalOrder from "./components/FinalOrder/FinalOrder";
 import Home from './components/Home/Home';
 import PlaceOrder from "./components/PlaceOrder/PlaceOrder";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
@@ -11,12 +12,12 @@ export const cartContext = createContext();
 
 function App() {
   const [priceAndCart, setPriceAndCart] = useState({
-    newPrice:0,
+    newPrice: 0,
     cart: 0,
-    email: ''
+    email: '',
+    name: ''
   });
 
-console.log(priceAndCart.email);
   return (
     <cartContext.Provider value={[priceAndCart, setPriceAndCart]}>
       <Router>
@@ -32,6 +33,9 @@ console.log(priceAndCart.email);
           </PrivateRoute>
           <Route path="/login">
             <SignUpPage></SignUpPage>
+          </Route>
+          <Route path="/confirmOrder">
+            <FinalOrder></FinalOrder>
           </Route>
           <Route exact path="/">
             <Home></Home>

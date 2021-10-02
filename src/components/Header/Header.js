@@ -6,7 +6,7 @@ import { useContext } from 'react';
 import { categoryContext } from '../Home/Home';
 
 const Header = () => {
-    const [category, setCategory] = useContext(categoryContext);
+    const [ setCategory] = useContext(categoryContext);
     return (
         <>
             <div>
@@ -14,8 +14,8 @@ const Header = () => {
                     <Container>
                         <img className="logo img-fluid" src={logo} alt="" />
                         <div>
-                            <a className="signin-btn" href="/">Sign in</a>
-                            <a className="signup-btn" href="/">Sign Up</a>
+                            <button disabled className="signin-btn" href="/">Sign in</button>
+                            <button disabled className="signup-btn" href="/">Sign Up</button>
                         </div>
                     </Container>
                 </Navbar>
@@ -23,9 +23,9 @@ const Header = () => {
 
             <div className="second-site mt-2">
                 <div>
-                    <h2>Best Food Waiting For Food</h2>
-                    <input placeholder="Search Food Items" className="form-control" type="text" />
-                    <button className="search-btn mt-2">Search</button>
+                    <h3>Best Food Waiting For Food</h3>
+                    <input placeholder="Search Food Items" className="form-control search-input" type="text" />
+                    <button className="search-btn">Search</button>
                 </div>
             </div>
 

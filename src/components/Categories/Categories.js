@@ -10,10 +10,12 @@ import { useHistory } from 'react-router';
 
 
 const Categories = () => {
-    const [category, setCategory] = useContext(categoryContext);
+    const [category] = useContext(categoryContext);
 
     const [product, setProduct] = useState([]);
-    const [priceAndCart, setPriceAndCart] = useContext(cartContext);
+
+    const [priceAndCart] = useContext(cartContext);
+
     useEffect(() => {
         const fakeProduct = fakeData;
         const categories = fakeProduct.filter(pd => pd.category === category);

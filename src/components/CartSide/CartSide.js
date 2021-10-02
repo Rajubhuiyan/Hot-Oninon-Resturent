@@ -9,20 +9,21 @@ import { Link } from 'react-router-dom';
 import { cartContext } from '../../App';
 
 const CartSide = () => {
+    const [priceAndCart, setPriceAndCart] = useContext(cartContext);
     const { productid } = useParams();
     const [item, setItem] = useState([]);
-    
+
 
     useEffect(() => {
         const product = getFakeData.find(pd => pd.id === productid);
         setItem(product);
     }, [productid]);
 
-    const [priceAndCart, setPriceAndCart] = useContext(cartContext);
+    
     const { name, price, picture } = item;
     
+
     const cartIncrease = (isCartIncrease) => {
-        debugger
         if (isCartIncrease) {
             const newCartValue = priceAndCart.cart + 1;
             const finalPrice = newCartValue * price;

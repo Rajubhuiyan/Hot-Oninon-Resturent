@@ -1,0 +1,48 @@
+.signup-container{
+    height: 752px;
+    width: 100%;
+    background-image: url(../../images/header/bannerbackground.png);
+    background-position: center;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+input{
+    display: block;
+    width: 400px;
+    margin: 20px !important;
+    height: 43px;
+    padding: 10px;
+    background-color: rgba(240, 240, 240, 0.775);
+    border: none;
+    outline: none;
+}
+.input-btn{
+    background-color: rgb(241, 32, 32);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0 !important;
+}
+.signup-logo img{
+    width: 40%;
+}
+.signup-logo{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    
+    input{
+        display: block;
+        width: 300px;
+        margin: 10px !important;
+        height: 43px;
+        padding: 5px;
+        background-color: rgba(240, 240, 240, 0.775);
+        border: none;
+        outline: none;
+    }
+}

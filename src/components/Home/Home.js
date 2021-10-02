@@ -7,7 +7,6 @@ export const categoryContext = createContext();
 
 const Home = () => {
     const [category, setCategory] = useState('lunch');
-    console.log(category);
     return (
         <categoryContext.Provider value={[category, setCategory]}>
             <Header></Header>

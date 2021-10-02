@@ -5,18 +5,27 @@ import CategoryDetails from '../CategoryDetails/CategoryDetails';
 import './Categories.css'
 import { ToggleButton } from 'react-bootstrap';
 import { categoryContext } from '../Home/Home';
+import { cartContext } from '../../App';
+import { useHistory } from 'react-router';
 
 
 const Categories = () => {
     const [category, setCategory] = useContext(categoryContext);
 
     const [product, setProduct] = useState([]);
-
+    const [priceAndCart, setPriceAndCart] = useContext(cartContext);
     useEffect(() => {
         const fakeProduct = fakeData;
         const categories = fakeProduct.filter(pd => pd.category === category);
         setProduct(categories);
     }, [category]);
+
+
+    const history = useHistory();
+
+    const handlePlaceOrder = () => {
+        history.push('/placeorder')
+    }
 
     return (
         <>
@@ -26,7 +35,9 @@ const Categories = () => {
                 }
             </div>
             <div className="container checkout-btn">
-                <ToggleButton id="tbg-check-1" value={1}>Ckeck Out Your Food</ToggleButton>
+                {
+                    priceAndCart.cart > 0 ? <ToggleButton onClick={handlePlaceOrder} id="tbg-check-1" value={1}>Ckeck Out Your Food</ToggleButton> : <ToggleButton disabled id="tbg-check-1" value={1}>Ckeck Out Your Food</ToggleButton>
+                }
             </div>
         </>
     );

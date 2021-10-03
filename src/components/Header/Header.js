@@ -6,7 +6,7 @@ import { useContext } from 'react';
 import { categoryContext } from '../Home/Home';
 
 const Header = () => {
-    const [ setCategory] = useContext(categoryContext);
+    const [category,  setCategory] = useContext(categoryContext);
     return (
         <>
             <div>
